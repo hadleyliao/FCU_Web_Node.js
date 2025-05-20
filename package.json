@@ -10,5 +10,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "axios": "^1.7.9",
+    "axios-cookiejar-support": "^5.0.5",
+    "cheerio": "^1.0.0",
+    "fetch-cookie": "^1.0.0",
+    "form-data": "^4.0.1",
+    "jsdom": "^26.0.0",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^24.1.0",
+    "tough-cookie": "^5.1.0"
+  }
 }
