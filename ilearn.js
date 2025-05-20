@@ -23,8 +23,8 @@ async function ilearnLogin() {
         await page.waitForSelector('#loginbtn');
 
         // Fill in login credentials
-        await page.type('#username', '輸入我的帳號');
-        await page.type('#password', '輸入我的密碼');
+        await page.type('#username', '在這裡輸入我的帳號');
+        await page.type('#password', '在這裡輸入我的密碼');
 
         // Click login button
         await page.click('#loginbtn');
@@ -38,7 +38,7 @@ async function ilearnLogin() {
         const loginPageContent = await page.content();
         console.log('Login page content:', loginPageContent);
 
-        // Navigate to the specified course page
+        // Navigate to the specified course page　在下面’’裡貼上要載入網頁
         await page.goto('https://ilearn.fcu.edu.tw/course/view.php?id=124219', {
             waitUntil: 'networkidle0'
         });
