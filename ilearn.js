@@ -23,8 +23,8 @@ async function ilearnLogin() {
         await page.waitForSelector('#loginbtn');
 
         // Fill in login credentials
-        await page.type('#username', '數我的帳號');
-        await page.type('#password', '我的密碼');
+        await page.type('#username', '輸入我的帳號');
+        await page.type('#password', '輸入我的密碼');
 
         // Click login button
         await page.click('#loginbtn');
